@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+   
+    std::cout << "\033[1;36mAlexis Keeley\033[0m\n\n";
+
+   
+    std::string Github = "https://github.com/Ajkeeley?tab=repositories";
+    std::string emailaddress = "Alexis.keeley12@gmail.com";
+    std::string Internships = "Metropolitan Area";
+
+   //std can be taken  out but when using replit it will not work 
+    std::cout << "\033[1;34m📌 GitHub: \033[0m\033[4;34m" << Github << "\033[0m\n";  
+    std::cout << "\033[1;33m🌎 Based in: \033[0m" << Internships << "\n";             
+
+    return 0;
+}
